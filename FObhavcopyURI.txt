@@ -1,0 +1,4 @@
+https://archives.nseindia.com/content/historical/DERIVATIVES/2023/JUL/fo26JUL2023bhav.csv.zip
+
+
+SELECT * FROM nsefo2023.fo27jul2023 where EXPIRY_DT='31Aug2023' && STRIKE_PR='19700' && SYMBOL='NIFTY';
