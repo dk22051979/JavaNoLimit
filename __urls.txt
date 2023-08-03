@@ -1,0 +1,4 @@
+http://www.nseindia.com/content/historical/EQUITIES/2011/NOV/cmNOV2011bhav.csv.zip
+http://www.nseindia.com/content/historical/DERIVATIVES/2011/NOV/foNOV2011bhav.csv.zip
+http://bseindia.com/Hisbhav/eq0311_csv.zip
+http://www.nseindia.com/content/indices/histdata/S%26P%20CNX%20NIFTY08-11-2011-08-11-2011.csv

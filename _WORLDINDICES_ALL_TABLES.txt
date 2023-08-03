@@ -1,0 +1,1 @@
+cac,dax,ftse,hangseng,nasdaq,nikkei,ssecomposite,straittimes,

@@ -1,0 +1,11 @@
+BHARTIARTL_eq
+IDEA_eq
+MTNL_eq
+RCOM_eq
+TTML_eq
+TATACOMM_eq
+ONMOBILE_eq
+TULIP_eq
+DISHTV_eq
+SUNTV_eq
+ZEEL_eq

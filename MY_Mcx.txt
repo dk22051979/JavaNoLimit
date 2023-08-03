@@ -1,0 +1,9 @@
+goldm_2012_05_05
+silverm_2012_08_31
+crudeoil_2012_07_19
+copperm_2012_06_29
+nickelm_2012_05_31
+leadmini_2012_05_31
+zincmini_2012_05_31
+naturalgas_2012_04_25
+alumini_2012_05_31

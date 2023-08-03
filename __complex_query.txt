@@ -1,0 +1,16 @@
+SELECT nse.nse_nifty.tradedate AS DATE, SUBSTRING_INDEX(SUBSTRING_INDEX(nse.nse_nifty.ohlc,',',-2),',',1) AS NIFTY_CLOSE, @id := 50, @ip := 2, SUBSTRING_INDEX(SUBSTRING_INDEX(bse.bse_adanienter.ohlc,',',-2),',',1) AS ADANIENTER_CLOSE,@sd := 67,@sp:=4.5 FROM nse.nse_nifty INNER JOIN bse.bse_adanienter WHERE (nse.nse_nifty.tradedate=bse.bse_adanienter.tradedate) AND (bse.bse_adanienter.tradedate BETWEEN '2010-07-01' AND CURDATE()) ORDER BY nse.nse_nifty.tradedate DESC
+
+SUBSTRING_INDEX(SUBSTRING_INDEX(nse.nse_nifty.ohlc,',',-2),',',1) 
+
+@d1:=((SUBSTRING_INDEX(SUBSTRING_INDEX(nse.nse_nifty.ohlc,',',-2),',',1)) - (SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(nse.nse_nifty.ohlc,',',-2),',',1) FROM nse.nse_nifty WHERE nse.nse_nifty.tradedate='2010-07-01'))
+
+
+@p1:=((((SUBSTRING_INDEX(SUBSTRING_INDEX(nse.nse_nifty.ohlc,',',-2),',',1)) - (SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(nse.nse_nifty.ohlc,',',-2),',',1) FROM nse.nse_nifty WHERE nse.nse_nifty.tradedate='2010-07-01'))/(SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(nse.nse_nifty.ohlc,',',-2),',',1) FROM nse.nse_nifty WHERE nse.nse_nifty.tradedate='2010-07-01'))*100)
+
+@p2:=((((SUBSTRING_INDEX(SUBSTRING_INDEX(bse.bse_accltd.ohlc,',',-2),',',1)) - (SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(bse.bse_accltd.ohlc,',',-2),',',1) FROM bse.bse_accltd WHERE bse.bse_accltd.tradedate='2010-07-01'))/(SELECT SUBSTRING_INDEX(SUBSTRING_INDEX(bse.bse_accltd.ohlc,',',-2),',',1) FROM bse.bse_accltd WHERE bse.bse_accltd.tradedate='2010-07-01'))*100)
+
+
+
+TRUNCATE('',2)
+CONCAT('','')
+

@@ -1,0 +1,12 @@
+BSE_Auto
+BSE_Bank
+BSE_CapitalGoods
+BSE_FMCG
+BSE_HealthCare
+BSE_IT
+BSE_Metal
+BSE_OilGas
+BSE_Power
+BSE_PSU
+BSE_Realty
+BSE_Tech

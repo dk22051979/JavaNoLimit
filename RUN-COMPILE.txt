@@ -1,0 +1,2 @@
+javac -cp "..\\MT_LIB\\c.jar;..\\MT_LIB\\i.jar;"..\\MT_LIB\\t.jar;"..\\MT_LIB\\p.jar;"..\\MT_LIB\\m.jar;"" MoneyTree.java
+java -cp "..\\MT_LIB\\c.jar;..\\MT_LIB\\i.jar;"..\\MT_LIB\\t.jar;"..\\MT_LIB\\p.jar;"..\\MT_LIB\\m.jar;"" MoneyTree

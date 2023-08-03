@@ -1,0 +1,1 @@
+javac.exe -deprecation -nowarn -sourcepath "E:\SW\jsp\MoneyTree1.0.0.0002" -classpath "E:\jdk\jre\lib\rt.jar;E:\jdk\lib\tools.jar;E:\jdk\MyMoneyTreeLib\iText-2.1.5.jar;E:\jdk\MyMoneyTreeLib\jcommon-1.0.16.jar;E:\jdk\MyMoneyTreeLib\jfreechart-1.0.13.jar;E:\jdk\MyMoneyTreeLib\mysql-connector-java-5.1.17-bin.jar;E:\SW\jsp\MoneyTree1.0.0.0002" MoneyTree.java

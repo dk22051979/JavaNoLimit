@@ -1,0 +1,24 @@
+PATH is set to mysql bin install dir
+
+
+to file
+mysqldump -u root -p --databases rbi mcx ncdex > rbi_mcx_ncdex_dump.sql
+mysqldump -u root -p --databases fiidii myscrips worldindices fundamental> fiidii_myscrips_worldindices_fundamental_.sql
+mysqldump -u root -p --databases nse > nse_dump.sql
+mysqldump -u root -p --databases nsefno > nsefno_dump.sql
+mysqldump -u root -p --databases bse > bse_dump.sql
+mysqldump -u root -p --databases nseopt > nseopt_dump.sql
+
+
+from file
+mysql -u root -p  < rbi_mcx_ncdex_dump.sql
+mysql -u root -p  < fiidii_myscrips_worldindices_fundamental_.sql 
+mysql -u root -p  < nse_dump.sql
+mysql -u root -p  < nsefno_dump.sql
+mysql -u root -p  < bse_dump.sql
+mysql -u root -p  < nseopt.sql
+
+or
+
+source dump.sql
+
